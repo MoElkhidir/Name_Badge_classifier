@@ -17,7 +17,7 @@ $ tail -n95 badges.data > testing
 
 running the algorithm on the new data files
 ```
-$ python classifier.py training test
+$ python classifier.py training testing
 ```
 
 # acknowledgment
