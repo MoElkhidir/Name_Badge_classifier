@@ -13,17 +13,13 @@ using Bash:
 
 split data file for training and testing
 '''
-
 $ head -n200 badges.data > training
 $ tail -n95 badges.data > testing
-
 '''
 
 running the algorithm on the new data files
 '''
-
 $ python classifier.py training test
-
 '''
 
 # acknowledgment
