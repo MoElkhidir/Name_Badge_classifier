@@ -12,16 +12,16 @@ We will start with dividing the data file into two files, the first one contains
 using Bash:
 
 split data file for training and testing
-'''
+
+```
 $ head -n200 badges.data > training
 $ tail -n95 badges.data > testing
-'''
+```
 
 running the algorithm on the new data files
-'''
+```
 $ python classifier.py training test
-'''
+```
 
 # acknowledgment
 the data file obtained from [UCI](https://archive.ics.uci.edu/ml/index.html)
-ff
